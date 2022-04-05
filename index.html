@@ -1,0 +1,29 @@
+<!--===============================================================================================
+                        Codename Validator
+This project will helps to build up knowledge of DOM Manipulation and managing user input.
+==================================================================================================-->
+
+<html>
+  <head>
+    <meta charset="UTF-8" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <!-- Header -->
+      <header id="header">
+        <h3>Codename Validator</h3>
+      </header>
+      <!-- Form for user input -->
+      <form id="form">
+        <input class="input" type="text" name="uname" placeholder="Enter your codename..." />
+        <input class="validate" type="button" value="Validate" onclick="validateUsername()" />
+      </form>
+
+      <p>(Minimum 5 characters, 1 lowercase, 1 uppercase & 2 numbers)</p>
+    </div>    
+  </body>
+</html>

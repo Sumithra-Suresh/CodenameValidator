@@ -1,0 +1,66 @@
+/* global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 100%;
+    box-sizing: border-box;
+  }
+  /* body */
+  body {
+    font-family: 'Lato', 'sans-serif';
+    background-color: #c3dac3;
+    color: #112a46;
+    line-height: 1.3;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  /* container */
+  #container {
+    margin: auto;
+    margin-top: 100px;
+    width: 500px;
+    height: 250px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #6b6054;
+  }
+  /* header */
+  #header {
+    width: 100%;
+    min-height: 35px;
+    padding: 10px;
+    background-color: #a1b0ab;
+  }
+  /* form */
+  #form {
+    border-width: 0px;
+    margin-top: 40px;  
+    border-radius: 0;
+  }
+  
+  .input,
+  .validate {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;  
+  }
+  
+  .input {
+    border: 1px solid #6b6054;
+  }
+  
+  .validate {
+    background-color: #453d36;
+    color: #eadede;
+    border: 1px solid transparent;
+  }
+  
+  p {
+    font-size: 0.8rem;
+    padding: 20px;
+  }
+  
